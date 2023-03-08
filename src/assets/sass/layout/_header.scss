@@ -1,10 +1,16 @@
 header {
     display: flex;
+    justify-content: center;
+    align-items: center;
     nav {
         ul {
-            justify-content: center;
             display: flex;
-            align-items: center;
+            li {
+                padding: 10px;
+                cursor: pointer;
+                color: #c0955e;
+                text-transform: uppercase;
+            }
         }
     }
 }
