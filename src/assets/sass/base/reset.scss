@@ -20,8 +20,11 @@ html {
 
 body {
     margin: 0;
-    min-height: 100vh;
+    height: 100%;
+    overflow: hidden;
     background: linear-gradient(180deg, #000000 0%, #2d5561 100%);
+    // background-image: url(../../img/bg_stars.png);
+    // background-size: cover;
 }
 
 .light {
@@ -41,7 +44,7 @@ body {
 h1 {
     font-family: $font-1;
     color: #c0955e;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 h2 {

@@ -1,0 +1,34 @@
+/*anim-arrow*/
+
+@keyframes slide-in {
+    0% {
+        width: 0%;
+        opacity: 0;
+    }
+    100% {
+        width: 60px;
+        opacity: 1;
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        width: 60px;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+/*fadeIn*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate3D(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}

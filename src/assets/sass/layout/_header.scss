@@ -3,6 +3,9 @@ header {
     justify-content: center;
     align-items: center;
     nav {
+        position: fixed;
+        z-index: 1000;
+        top: 10px;
         ul {
             display: flex;
             li {
