@@ -1,16 +1,23 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 
 const Home = () => {
+
+    const darkmode = useSelector((state) => state.theme.darkmode);
 
     let navigate = useNavigate()
     const projets = () => { navigate('/projets') }
     const about = () => { navigate('/about') }
 
     return (
-        <section className='home ' >
-            <img className='dark stars' src={process.env.PUBLIC_URL + '/assets/img/stars.png'} alt="" />
+        <section className='home dark' >
+            <Image
+                src={!darkmode ? "./images/logo.svg" : "./images/logo_white.svg"}
+                alt="Image load fail"
+            />
+            <img className='stars dark' src={process.env.PUBLIC_URL + '/assets/img/stars.png'} alt="" />
 
             <img className='dark cloud-top-left' src={process.env.PUBLIC_URL + '/assets/img/dark-cloud-top-left.png'} alt="" />
             <img className='dark cloud-top-right' src={process.env.PUBLIC_URL + '/assets/img/dark-cloud-top-rigth.png'} alt="" />
