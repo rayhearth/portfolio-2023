@@ -6,6 +6,7 @@ import { Layout, Home, About, Projets, Contact } from '../pages/index'
 import Error from '../_utils/Error'
 
 const Router = () => {
+
     return (
         <Routes>
             <Route element={<Layout />}>
