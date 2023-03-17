@@ -16,6 +16,7 @@ const Home = () => {
 
         <section
             className={!darkmode ? "day-home home" : "dark-home home"}
+
         >
 
             <BgImage
