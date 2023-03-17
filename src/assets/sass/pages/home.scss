@@ -1,7 +1,7 @@
 .home {
     position: relative;
     height: 100vh;
-    background: linear-gradient(180deg, #000000 0%, #2d5561 100%);
+
     .intro-text {
         padding: 50px;
         h3 {
@@ -74,17 +74,17 @@
         z-index: 500;
     }
     .cloud-top-right {
-        top: -40px;
+        top: 0;
         right: 0;
         z-index: 500;
     }
     .cloud-bottom-left {
-        bottom: 0px;
+        bottom: 0;
         left: 0;
         z-index: 500;
     }
     .cloud-bottom-right {
-        bottom: 0px;
+        bottom: 0;
         right: 0;
         z-index: 500;
     }
@@ -107,6 +107,14 @@
         -moz-transform: scale(0.65);
         transform: scale(0.65);
     }
+}
+
+.dark-home {
+    background: linear-gradient(180deg, #000000 0%, #2d5561 100%);
+}
+
+.day-home {
+    background: linear-gradient(180deg, #28b6be 0%, #ebd5b1 100%);
 }
 
 /* KEYFRAMES */

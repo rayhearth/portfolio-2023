@@ -1,9 +1,14 @@
 @font-face {
     font-family: "font-1";
     src: url(../../fonts/RampartOne-Regular.ttf);
+
+    font-family: "comfortaa";
+    src: url(../../fonts/Comfortaa-VariableFont_wght.ttf);
 }
 
 $font-1: "font-1", sans-serif;
+
+$comfortaa: "comfortaa";
 
 $gold: #c0955e;
 $darken-green: #2d5561;

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Image = styled.img`
   :first-child {
   width: 250px;
@@ -16,11 +17,9 @@ export const BgImage = styled.img`
   opacity: 0.7;
   top: 0;
   left: 0;
-  z-index: -1;
   `
 
 export const Cloud = styled.img`
   position: absolute;
   z-index:500;
-    
   `
