@@ -41,17 +41,17 @@ const Header = () => {
                     <li className="main-nav-item" onClick={contact}>
                         Contact
                     </li>
-                    <li>{!theme.darkmode ? (
-                        <ModeButton onClick={setDark} bg="#324b50">
-                            <img src="./assets/img/night-mode.png" alt="" />
-                        </ModeButton>
-                    ) : (
-                        <ModeButton onClick={setDefault} bg="#f4e8dc">
-                            <img src="./assets/img/day-mode.png" alt="" />
-                        </ModeButton>
-                    )}</li>
 
                 </ul>
+                {!theme.darkmode ? (
+                    <ModeButton onClick={setDark} bg="#2d5561">
+                        <img src="./assets/img/night-mode.png" alt="" />
+                    </ModeButton>
+                ) : (
+                    <ModeButton onClick={setDefault} bg="#1bb5bd">
+                        <img src="./assets/img/day-mode.png" alt="" />
+                    </ModeButton>
+                )}
             </nav>
         </header>
     );

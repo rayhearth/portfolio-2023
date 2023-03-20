@@ -20,8 +20,8 @@ const Home = () => {
         >
 
             <BgImage
-                className='stars'
-                src={!darkmode ? "" : "./assets/img/stars.png"}
+                className={!darkmode ? "baloon" : "stars"}
+                src={!darkmode ? "./assets/img/mongolfieres.png" : "./assets/img/stars.png"}
                 alt="Image load fail"
             />
 

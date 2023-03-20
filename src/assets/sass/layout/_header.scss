@@ -4,16 +4,22 @@ header {
     align-items: center;
     nav {
         position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
         z-index: 1000;
         top: 10px;
         ul {
             display: flex;
             justify-content: center;
             align-items: center;
+            gap: 20px;
             li {
-                padding: 10px;
                 cursor: pointer;
-                color: #c0955e;
+                padding: 10px;
+                color: $cream;
+                font-weight: bold;
                 text-transform: uppercase;
             }
         }

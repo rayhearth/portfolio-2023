@@ -12,11 +12,7 @@ export const Image = styled.img`
 
 export const BgImage = styled.img`
   position: absolute;
-  height: 100%;
-  width: 100%;
-  opacity: 0.7;
-  top: 0;
-  left: 0;
+  
   `
 
 export const Cloud = styled.img`

@@ -17,6 +17,9 @@ const About = () => {
                     </p>
 
                 </div>
+                <div className="portrait">
+                    <img src="" alt="" />
+                </div>
 
             </div>
         </section>
